@@ -1,0 +1,294 @@
+.navbar {
+    background: linear-gradient(to right, rgba(0, 105, 62, 0.97), rgba(18, 49, 43, 0.94)) ,url(/systemimages/header_background) repeat;
+    padding-bottom: 8px;
+    min-height: 42px;
+    display: flex;
+}
+
+/* Web Search and Filter Panel CSS Changes */
+.pn-proxy-search-pnl .btn-square-1,
+.filterNodePanelSearchClear .btn-round-1 {
+  border-color: #429057;
+}
+
+.searchButton .btn-round-1,
+.searchEditors .editor-link{
+  border: 1px solid #429057;
+}
+
+.quickSearchBar .searchButton .btn-round-1:hover {
+  border-color: #065638;
+}
+
+.searchEditor .booleanFieldValueEditor {
+    border: 1px solid #429057;
+}
+
+.noFilter .filterGroupButton {
+  border-color: #429057;
+}
+
+.noFilter .filterGroupButton:hover {
+  border-color: #065638;
+}
+
+/* Personnel Ver CSS Changes */
+.pss_buttonbar .pss_actiontype_gotoeditpage,
+.pss_changepassword_dialog .pss_buttonbar .pss_actiontype_ok {
+  background-color: #06563a;
+}
+
+.pss_buttonbar .pss_actiontype_gotoeditpage:hover,
+.pss_changepassword_dialog .pss_buttonbar .pss_actiontype_ok:hover {
+  background-color: #0c4431;
+}
+
+
+/* Portal Grid CSS Changes */
+#editmodebutton img,
+#closeeditmodebutton img {background-color: #00693e;}
+
+/* Tablet Ver CSS Changes */
+#pn-container[data-render-mode=tablet] .home {
+    background: linear-gradient(to right, rgba(0, 105, 62, 0.97), rgba(6, 86, 56, 0.94)), url(/systemimages/header_background) repeat;
+}
+
+
+/* Planon Base CSS Changes */
+.navbar {
+    background: linear-gradient(to right, rgba(0, 105, 62, 0.97), rgba(6, 86, 56, 0.94)) ,url(/systemimages/header_background) repeat ;
+}
+.myaccount-button,
+.myaccount-button span,
+.logout-button,
+.logout-button span,
+.refresh-button,
+.refresh-button span {
+    background-color: #065638;
+}
+
+.daycode-button {
+    color: #12312b;
+}
+
+.myaccount-button:hover,
+.myaccount-button:active,
+.myaccount-button:focus,
+.logout-button:hover,
+.logout-button:active,
+.logout-button:focus,
+.myaccount-button:hover span,
+.myaccount-button:active span,
+.myaccount-button:focus span,
+.logout-button:hover span,
+.logout-button:active span,
+.logout-button:focus span {
+    background-color: #0c4431;
+}
+
+.daycode-button:hover,
+.daycode-button:active,
+.daycode-button:focus {
+    color: #12312b;
+}
+
+.pn-popup.user-info-popup #person-name span,
+.pn-popup-block span label {
+    color: #065638;
+}
+
+.pn-popup-menu-item:hover,
+.pn-popup .pn-popup-menu-item.k-state-hover {
+    background: #429057;
+}
+
+.pn-reference-date-tooltip {
+    border: 1px solid #429057;
+}
+
+.toolbar-entry .header-toolbar-button.toolbar-button {
+	border: 1px solid #429057;
+}
+
+.pn-reference-date-tooltip:after {
+    border-color: transparent transparent transparent #0c4431;
+}
+
+.pn-reference-date-tooltip:before {
+    border-color: transparent transparent transparent #429057;
+}
+
+#propertySet-list #propertySet_listbox .k-item.k-state-hover,
+#propertySet-list #propertySet_listbox .k-item.k-state-selected:hover {
+    background-color: #429057;
+    border-color: #429057;
+}
+
+.pn-popup-content {
+    color: #12312b;
+}
+
+.pn-popup-content:hover {
+    background-color: #429057;
+}
+
+.pn-reference-date-component .k-link,
+.pn-reference-date-component .k-header .k-link {
+    color: #12312b;
+}
+
+.pn-reference-date-component .k-today .k-link {
+    color: #429057;
+}
+
+.pn-reference-date-component td:hover,
+.pn-reference-date-component td:hover .k-link {
+    background: none repeat scroll 0 0 #429057;
+}
+
+.pn-reference-date-component .k-state-selected,
+.pn-reference-date-component .k-state-selected:hover,
+.pn-reference-date-component .k-state-selected:hover .k-link,
+.pn-reference-date-component .k-state-focused.k-state-selected {
+    background: none repeat scroll 0 0 #065638;
+}
+
+.pn-reference-date-selected {
+    background-color: #065638;
+}
+
+#navigator .homeLink>a,
+#navigator .navigatorGroup>span {
+    color: #12312b;
+}
+
+#navigator .homeLink .k-state-selected img {
+    background-color: #f1f1f1;
+    filter: grayscale(1);
+}
+
+.navigatorGroup .navigatorItem .k-link {
+}
+
+#navigator .navigatorGroup .navigatorItem a:hover {
+    background: none #00693e;
+}
+
+#navigator .navigatorGroup span .k-state-selected {
+    color: #429057;
+}
+
+#navigator .navigatorGroup.k-state-active>span {
+    color: #065638;
+}
+
+#navigator .navigatorGroup.k-state-active>span:hover {
+    color: #065638;
+}
+
+#navigator .homeLink .k-state-selected,
+#navigator .homeLink .k-state-selected:hover {
+    color: #429057;
+}
+
+.navigatorGroup .navigatorItem .k-state-selected,
+#navigator .navigatorGroup .navigatorItem .k-state-selected:hover {
+    background: none #065638;
+}
+
+.navigatorItem a:hover img {
+    background: none #c5dd88;
+}
+
+.navigatorItem .k-state-selected img {
+    background: none #c5dd88;
+}
+
+.navigatorItem .k-state-selected:hover img {
+    background: none #c5dd88;
+}
+
+#navigator .navigatorGroup span.k-state-selected img,
+#navigator .navigatorGroup.k-state-highlight span img {
+    background-color: #065638;
+}
+
+.navigatorGroup ul li {
+    color: #12312b;
+}
+
+
+.k-window-title {
+    color: #12312b;
+}
+
+#AboutBox div.labelWithValue .aboutLabel {
+    color: #065638;
+}
+
+#AboutBox div.labelWithValue .aboutValue {
+    color: #12312b;
+}
+
+#AboutBox div.procenter-aboutbox {
+    background: url("/static/images/planon-logo-white.png") no-repeat center center, linear-gradient(to right, rgba(0, 105, 62, 0.97), rgba(6, 86, 56, 0.94)), url(/systemimages/header_background) repeat center;
+}
+
+.case-desc {
+    color: #12312b;
+}
+
+.case-code {
+    color: #065638;
+}
+
+.case-code:hover {
+    color: #0c4431;
+}
+
+
+.pn-casePartTitleContainer {
+    color: #12312b;
+}
+
+.pn-otap-desc {
+    color: #12312b;
+}
+
+.pn-notification-text {
+    color: #12312b;
+}
+
+#configurationProjectMenu .configuration-link {
+    border: 1px solid #c5dd88;
+}
+
+.pn-config-project-item.selected {
+    background-color: #065638;
+}
+
+.configuration-label {
+    border-right: 1px solid #c5dd88;
+}
+
+/* Kendo Default CSS Changes */
+
+tr.selected, tr.selected:hover, tr.selected.marked, tr.selected.marked:hover {
+	background-color: #065638;
+	color: #FFFFFF;
+}
+
+tr.hover, tr.marked {
+    background-color: #00693e;
+    color: #FFFFFF;
+}
+
+.tree-node a.selected .tree-label, .tree-node a.selected:hover .tree-label, div.marked .tree-node a.selected .tree-label, div.marked .tree-node a.selected:hover .tree-label {
+	background-color: #065638;
+	color: #fff;
+}
+
+.proxyPanel .wicket-tree .tree-content .a.hover, .div.marked > .tree-node > .tree-content > a {
+    background-color: #065638;
+    color: #fff;
+}
